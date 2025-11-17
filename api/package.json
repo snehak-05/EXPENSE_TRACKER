@@ -1,0 +1,21 @@
+{
+  "name": "expense-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "worker": "node queues/transactionWorker.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^1.20.2",
+    "bullmq": "^1.84.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.3.0",
+    "ioredis": "^5.3.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.3",
+    "uuid": "^9.0.0"
+  }
+}
