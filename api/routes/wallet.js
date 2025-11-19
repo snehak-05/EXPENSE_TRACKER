@@ -8,3 +8,5 @@ router.post('/withdraw', auth, controller.withdrawMoney);
 router.get('/balance', auth, controller.getBalance);
 
 module.exports = router;
+
+
