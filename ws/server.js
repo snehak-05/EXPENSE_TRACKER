@@ -19,6 +19,7 @@ function removeSocket(uid, ws) {
   if (!set) return;
   set.delete(ws);
   if (!set.size) userSockets.delete(uid);
+  
 }
 
 wss.on('connection', (ws) => {
